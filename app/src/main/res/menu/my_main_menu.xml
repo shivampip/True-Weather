@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/shareMenu"
+        android:title="Share"/>
+    <item android:title="Setting"
+        android:id="@+id/settingMenu"/>
+    <item android:id="@+id/weaTipMenu"
+        android:title="Weather Tip"/>
+    <item android:id="@+id/securityTipMenu"
+        android:title="Security Tips"/>
+    <item android:id="@+id/aboutMenu"
+        android:title="About"/>
+    <item android:id="@+id/exitMenu"
+        android:title="Exit"/>
+
+</menu>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/locationDialogPad"
+        android:layout_marginRight="@dimen/locationDialogPad"
+        android:layout_marginTop="@dimen/locationDialogPad"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="Select Location"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <com.dd.processbutton.iml.ActionProcessButton
+        android:id="@+id/currentLocationAPB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="@dimen/locationDialogPad"
+        android:layout_marginRight="@dimen/locationDialogPad"
+        android:text="Current Location"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        custom:pb_colorComplete="@color/green_complete"
+        custom:pb_colorError="@color/red_error"
+        custom:pb_colorNormal="@color/blue_normal"
+        custom:pb_colorPressed="@color/blue_pressed"
+        custom:pb_colorProgress="@color/purple_progress"
+        custom:pb_textComplete="Location Found"
+        custom:pb_textError="Error"
+        custom:pb_textProgress="Searching Location" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/locationDialogPad"
+        android:layout_marginRight="@dimen/locationDialogPad"
+        android:gravity="center"
+        android:text="OR"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="0px"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <EditText
+        android:id="@+id/cityEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/locationDialogPad"
+        android:layout_marginRight="@dimen/locationDialogPad"
+        android:hint="Enter City Name" />
+
+    <com.dd.processbutton.iml.ActionProcessButton
+        android:id="@+id/searchCityAPB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="@dimen/locationDialogPad"
+        android:layout_marginRight="@dimen/locationDialogPad"
+        android:text="Search City"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        custom:pb_colorComplete="@color/green_complete"
+        custom:pb_colorError="@color/red_error"
+        custom:pb_colorNormal="@color/blue_normal"
+        custom:pb_colorPressed="@color/blue_pressed"
+        custom:pb_colorProgress="@color/purple_progress"
+        custom:pb_textComplete="City Found"
+        custom:pb_textError="Error"
+        custom:pb_textProgress="Searching City" />
+
+    <TextView
+        android:id="@+id/locationTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/locationDialogPad"
+        android:layout_marginRight="@dimen/locationDialogPad" />
+
+    <Button
+        android:id="@+id/locDiaProceedB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0095ff"
+        android:text="Proceed"
+        android:visibility="gone" />
+
+
+</LinearLayout>

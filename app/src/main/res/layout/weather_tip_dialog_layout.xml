@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/tipDiaTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4e7dd4"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Weather Tip"
+        android:textColor="@color/textColor"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/tipDiaTitle"
+        android:layout_alignParentRight="true"
+        android:adjustViewBounds="true"
+        android:background="#0000ff00"
+        android:onClick="share"
+        android:padding="2dp"
+        android:layout_margin="5dp"
+        android:id="@+id/tipDiaShareIB"
+        android:scaleType="centerCrop"
+        android:src="@drawable/share_icon_black" />
+
+    <TextView
+        android:id="@+id/tipDiaTimeTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tipDiaTitle"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="10dp"
+        android:text="Today"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/tipDiaIV"
+        android:layout_width="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:layout_height="150dp"
+        android:layout_below="@id/tipDiaTimeTv"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tip_clear" />
+
+    <ImageButton
+        android:id="@+id/tipDiaLeftIB"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/tipDiaIV"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/tipDiaIV"
+        android:background="#00ff0000"
+        android:src="@drawable/left_icon" />
+
+    <ImageButton
+        android:id="@+id/tipDiarightIB"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/tipDiaIV"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tipDiaIV"
+        android:background="#00ff0000"
+        android:src="@drawable/right_icon" />
+
+    <TextView
+        android:id="@+id/tipDiaTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tipDiaIV"
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Today It may rain in the Evening. Be careful. Don't go outside without an Umbrala."
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/tipDiaBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tipDiaTv"
+        android:background="#4e7dd4"
+        android:text="OK"
+        android:textColor="@color/textColor" />
+
+</RelativeLayout>

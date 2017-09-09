@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="mediumImgPad">5dp</dimen>
+    <dimen name="bigImgPad">15dp</dimen>
+    <dimen name="locationDialogPad">20dp</dimen>
+
+    <dimen name="subIconWH">50dp</dimen>
+    <dimen name="bigIconHW">150dp</dimen>
+</resources>

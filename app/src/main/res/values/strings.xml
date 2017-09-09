@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">True Weather</string>
+    <string name="strHumidity">Humidity</string>
+    <string name="strWindSpeed">Wind Speed</string>
+
+    <string name="hot_normal">It is warm. Keep enjoying Ice-Cream and Cold drinks.</string>
+    <string name="hot_medium">It is hot. Sun is furious. Keep having Cold drinks.</string>
+    <string name="hot_high">It is very Hot. Sun has become Fireball. Keep Stay Home.</string>
+
+    <string name="cold_normal">It is cold. Dress warm and stay Dry.</string>
+    <string name="cold_medium">It is freezing. Heat your house safely.</string>
+    <string name="cold_high">It is Bitterly cold. Wear warm clothes and Keep yourself warm.</string>
+
+
+    <string name="textOnScreenshot">True Weather on Google Play</string>
+
+    <string name="shareText">★★★★★★★\nHello, I am using this awesome *True Weather* app.\n It really helps me a lot. Just Download it from here\n</string>
+    <!--<string name="thisAppPlayLink">market://details?id=</string>-->
+    <string name="thisAppPlayLink">http://play.google.com/store/apps/details?id=</string>
+    <string name="shareTextEnd">\n★★★★★★★</string>
+
+    <!--About-->
+    <string name="description">
+        The True Weather app has the Simplest and user friendly interface with negligible data consumption, fastest and accurate weather reporting . Keep track live weather, any time, any where.
+        \nCreated with ♥ in India.
+    </string>
+    <string name="copy_right">Copyrights © %1$d</string>
+    <!--ChannleId-->
+    <string name="facebookId">100005346811763</string>
+    <string name="email">shivam301296@gmail.com</string>
+    <string name="developedBy">Developed by Shivam Agrawal</string>
+    <!--ScreenName-->
+
+    <!--Admob-->
+
+
+    <string name="app_id">ca-app-pub-6385771930770544~3058460114</string>
+    <string name="tip_click_int_ad_id">ca-app-pub-6385771930770544/4535193315</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+
+
+    <!--For Reality-->
+    <!--<string name="tip_click_int_ad_id">ca-app-pub-6385771930770544/4535193315</string>-->
+
+
+    <!--For Testing-->
+    <!--<string name="below_map_banner">ca-app-pub-3940256099942544/6300978111</string>-->
+
+    <!--For Reality-->
+    <!--<string name="below_map_banner"></string>-->
+
+
+</resources>

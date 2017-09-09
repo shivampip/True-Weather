@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/wishTitleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Happy New Year"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/wishIconIv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/wishTitleTv"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/wishDescTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wishIconIv"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Celebrate this New Year with your friends and make fun. Share this app and spread Happiness..." />
+
+    <Button
+        android:id="@+id/wishBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wishDescTv"
+        android:background="#108ff1"
+        android:text="Thanks"
+        android:textColor="@color/textColor" />
+
+</RelativeLayout>

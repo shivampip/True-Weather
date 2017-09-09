@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginRight="5dp"
+    android:background="@drawable/sub_item_back_shape"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/subDayTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Tue"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/subIconTv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:padding="@dimen/mediumImgPad"
+        android:scaleType="fitCenter" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/subTempMaxTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="2dp"
+            android:layout_weight=".5"
+            android:gravity="right"
+            android:text="↑30*"
+            android:textColor="#52ff4c"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/subTempMinTv"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="2dp"
+            android:layout_weight=".5"
+            android:gravity="left"
+            android:text="↓30*"
+            android:textColor="#ff8f8f"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

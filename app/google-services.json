@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "272573702402",
+    "firebase_url": "https://mousam-d3e14.firebaseio.com",
+    "project_id": "mousam-d3e14",
+    "storage_bucket": "mousam-d3e14.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272573702402:android:61998ed6a2a63fa3",
+        "android_client_info": {
+          "package_name": "com.shivam.tree.mousam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272573702402-i5gq3bcp0j0pr56ospv90gis872gs3lm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shivam.tree.mousam",
+            "certificate_hash": "45DB06AC5817C93C567CA6C4403037F3C96A840E"
+          }
+        },
+        {
+          "client_id": "272573702402-ite64ho4vkag54nvumarog0d3b457cs1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5jQmT3iREo5qz2VlqNlZmbuzAkC2U-pI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272573702402-ite64ho4vkag54nvumarog0d3b457cs1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
