@@ -30,6 +30,14 @@ True Weather
 
 * [Android Studio](https://developer.android.com/studio/index.html) - The Official IDE for Android
 
+### Third party libraries
+* Glide (https://github.com/bumptech/glide)
+* okhttp (https://github.com/square/okhttp)
+* android-process-button (https://github.com/dmytrodanylyk/android-process-button)
+* RealtimeBlurView (https://github.com/mmin18/RealtimeBlurView)
+* MPAndroidChart (https://github.com/PhilJay/MPAndroidChart)
+* gson (https://github.com/google/gson)
+
 ### Authors
 
 * **Shivam Agrawal** - [Rising Hope](http://risinghopeapps.weebly.com/)
