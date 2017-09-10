@@ -44,3 +44,6 @@ True Weather
 
 ### Version 
 * Version 1.0.1
+
+## License 
+* see [LICENSE](/LICENSE) file
