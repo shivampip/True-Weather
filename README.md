@@ -1,5 +1,8 @@
 True Weather
 ======
+
+<img src="images/icon_192.png" width="25%"></img>
+
 **True Weather** app has the Simplest and user friendly interface with negligible data consumption, fastest and accurate weather reporting . Keep track live weather, any time, any where.
 
 #### Screenshot
